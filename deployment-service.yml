@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bloggingapp
-          image: basestation:tagname # Updated image to private DockerHub image
+          image: mandavikas17/basestation:4 # Updated image to private DockerHub image
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
